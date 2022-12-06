@@ -1,9 +1,9 @@
 // Supports ES6
 import { create, Whatsapp } from "venom-bot";
-import { all } from "./src/commands/all";
-import { dice } from "./src/commands/dice";
-import { sticker } from "./src/commands/sticker";
-import { logMessages } from "./src/services/logMessages";
+import { all } from "./commands/all";
+import { dice } from "./commands/dice";
+import { sticker } from "./commands/sticker";
+import { logMessages } from "./services/logMessages";
 
 create({
   session: "session-name", //name of session

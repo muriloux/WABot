@@ -18,7 +18,7 @@ export const all: ICommand = {
         const members = await client.getGroupMembersIds(message.chatId);
         var ids: string[] = [];
 
-        members.forEach((member) => {
+        members.forEach((member: any) => {
           ids.push(member["id"]["user"]);
         });
 
