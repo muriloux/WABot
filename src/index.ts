@@ -1,8 +1,6 @@
 // Supports ES6
 import { create, Whatsapp } from "venom-bot";
-import { all } from "./commands/all";
-import { dice } from "./commands/dice";
-import { sticker } from "./commands/sticker";
+import { Commands } from "./commands";
 import { logMessages } from "./services/logMessages";
 
 create({
@@ -17,7 +15,8 @@ create({
 
 function start(client: Whatsapp) {
   logMessages(client, true);
-  dice.exec(client);
-  all.exec(client);
-  sticker.exec(client);
+  Commands.all.exec(client);
+  Commands.dice.exec(client);
+  Commands.sticker.exec(client);
+  Commands.help.exec(client);
 }

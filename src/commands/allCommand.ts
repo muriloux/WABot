@@ -4,8 +4,7 @@ import { ICommand } from "./ICommand";
 export const all: ICommand = {
   command: "!all",
   pattern: /^!all$/,
-  description:
-    "Dolore ea laboris ex aliquip culpa occaecat excepteur commodo laboris ipsum. Excepteur ut adipisicing consequat ea nulla labore id reprehenderit ea sit cupidatat excepteur exercitation. Esse reprehenderit incididunt est aliqua sint cupidatat velit consequat esse ex.",
+  description: "(ADM) Marca todos do grupo.",
   exec: (client) => {
     client.onAnyMessage(async (message: Message) => {
       if (
