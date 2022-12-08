@@ -11,7 +11,7 @@
     "typescript": "^4.9.3"
   },
   "engines": {
-    "node": "16.16.0"
+    "node": "16.18.1"
   },
   "scripts": {
     "dev": "ts-node --transpile-only src/index.ts",
