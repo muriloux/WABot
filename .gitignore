@@ -1,7 +1,5 @@
 node_modules
-!tokens
 !temp
-tokens/**
 temp/**
 dist
 .vscode
