@@ -1,8 +1,0 @@
-2022/12/08-12:06:55.909 40fa Reusing MANIFEST /home/naoki/Code/Typescript/WABot/tokens/sessionName/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/08-12:06:56.102 40f9 Level-0 table #5: started
-2022/12/08-12:06:56.111 40f9 Level-0 table #5: 6966 bytes OK
-2022/12/08-12:06:56.126 40f9 Delete type=0 #3
-2022/12/08-12:06:56.126 40fa Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/12/08-12:07:43.645 4201 Level-0 table #7: started
-2022/12/08-12:07:43.717 4201 Level-0 table #7: 1162754 bytes OK
-2022/12/08-12:07:43.727 4201 Delete type=0 #4
