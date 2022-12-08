@@ -5,6 +5,7 @@ import { logMessages } from "./services/logMessages";
 import path from "path";
 import express from "express";
 
+const PORT = 8080 || 3000;
 const sv = express();
 
 create(
@@ -40,9 +41,9 @@ create(
       res.sendFile("out.png", { root: path.join(__dirname) });
     });
 
-    sv.listen(8081, () => {
+    sv.listen(PORT, () => {
       console.log(
-        "server running on port 8081\ncheck http://localhost:8081/qr for QR code"
+        `server running on port ${PORT}\ncheck http://localhost:${PORT}/qr for QR code`
       );
     });
   },
