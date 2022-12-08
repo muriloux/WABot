@@ -9,6 +9,18 @@ import "dotenv";
 const PORT = process.env.PORT || 8080;
 const sv = express();
 
+const qrCodeServer = () => {
+  sv.get("/qr", (_req, res) => {
+    res.sendFile("out.png", { root: path.join(__dirname) });
+  });
+
+  sv.listen(PORT, () => {
+    console.log(
+      `server running on port ${PORT}\ncheck http://localhost:${PORT}/qr for QR code`
+    );
+  });
+};
+
 create(
   "sessionName",
   (base64Qr, asciiQR, attempts, urlCode) => {
@@ -38,15 +50,7 @@ create(
       }
     );
 
-    sv.get("/qr", (_req, res) => {
-      res.sendFile("out.png", { root: path.join(__dirname) });
-    });
-
-    sv.listen(PORT, () => {
-      console.log(
-        `server running on port ${PORT}\ncheck http://localhost:${PORT}/qr for QR code`
-      );
-    });
+    //qrCodeServer();
   },
   undefined,
   { logQR: false }
