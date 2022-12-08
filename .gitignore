@@ -5,3 +5,4 @@ tokens/**
 temp/**
 dist
 .vscode
+.vercel
