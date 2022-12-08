@@ -4,8 +4,9 @@ import { Commands } from "./commands";
 import { logMessages } from "./services/logMessages";
 import path from "path";
 import express from "express";
+import "dotenv";
 
-const PORT = 8080 || 3000;
+const PORT = process.env.PORT || 8080;
 const sv = express();
 
 create(
