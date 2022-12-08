@@ -27,6 +27,9 @@ export const sticker: ICommand = {
 
         if (message.type === "video") {
           fs.writeFile(fileName, buffer, (err) => {
+            err
+              ? console.log("error writing video file temp/temp.mp4: " + err)
+              : console.log("temp/temp.mp4 written.");
             convertMP4toGIF(fileName, () => {
               client
                 .sendImageAsStickerGif(message.chatId, "temp/temp.gif")
