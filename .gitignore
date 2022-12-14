@@ -4,3 +4,4 @@ temp/**
 dist
 .vscode
 .vercel
+tsconfig.template.json
