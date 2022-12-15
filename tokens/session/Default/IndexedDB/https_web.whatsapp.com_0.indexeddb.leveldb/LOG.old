@@ -1,0 +1,6 @@
+2022/12/15-04:20:08.827 2988 Creating DB C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/12/15-04:20:08.831 2988 Reusing MANIFEST C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/15-04:20:08.875 10c Level-0 table #5: started
+2022/12/15-04:20:08.877 10c Level-0 table #5: 6971 bytes OK
+2022/12/15-04:20:08.878 10c Delete type=0 #3
+2022/12/15-04:20:08.879 10c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
