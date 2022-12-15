@@ -1,6 +1,9 @@
-2022/12/14-22:56:27.834 1ee8 Creating DB C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2022/12/14-22:56:27.838 1ee8 Reusing MANIFEST C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/14-22:56:27.881 1970 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/12/14-22:57:43.382 1ee8 Level-0 table #5: started
-2022/12/14-22:57:43.419 1ee8 Level-0 table #5: 1164296 bytes OK
-2022/12/14-22:57:43.421 1ee8 Delete type=0 #3
+2022/12/14-23:23:36.883 9e0 Creating DB C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/12/14-23:23:36.886 9e0 Reusing MANIFEST C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/14-23:23:36.931 9e0 Level-0 table #5: started
+2022/12/14-23:23:36.933 9e0 Level-0 table #5: 6971 bytes OK
+2022/12/14-23:23:36.934 9e0 Delete type=0 #3
+2022/12/14-23:23:36.934 9e0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/14-23:24:16.835 1b14 Level-0 table #7: started
+2022/12/14-23:24:16.858 1b14 Level-0 table #7: 1179875 bytes OK
+2022/12/14-23:24:16.860 1b14 Delete type=0 #4
