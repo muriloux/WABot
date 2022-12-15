@@ -6,7 +6,7 @@ import "dotenv";
 
 create({
   session: process.env.SESSION_NAME, //name of session
-  multidevice: true, // for version not multidevice use false.(default: true)
+  multidevice: false, // for version not multidevice use false.(default: true)
 })
   .then((client) => {
     start(client);
