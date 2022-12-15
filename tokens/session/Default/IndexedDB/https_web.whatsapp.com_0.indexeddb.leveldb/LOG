@@ -1,0 +1,24 @@
+2022/12/15-04:05:24.210 23e4 Creating DB C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/12/15-04:05:24.214 23e4 Reusing MANIFEST C:\Code\Typescript\WABot\development\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/15-04:05:24.257 23e4 Level-0 table #5: started
+2022/12/15-04:05:24.259 23e4 Level-0 table #5: 6971 bytes OK
+2022/12/15-04:05:24.260 23e4 Delete type=0 #3
+2022/12/15-04:05:24.260 23e4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/15-04:06:25.522 219c Level-0 table #7: started
+2022/12/15-04:06:25.547 219c Level-0 table #7: 1154130 bytes OK
+2022/12/15-04:06:25.550 219c Delete type=0 #4
+2022/12/15-04:06:38.195 1610 Level-0 table #9: started
+2022/12/15-04:06:38.217 1610 Level-0 table #9: 1121768 bytes OK
+2022/12/15-04:06:38.221 1610 Delete type=0 #6
+2022/12/15-04:06:38.230 1610 Compacting 1@0 + 1@1 files
+2022/12/15-04:06:38.292 1610 Generated table #10@0: 41949 keys, 1506648 bytes
+2022/12/15-04:06:38.292 1610 Compacted 1@0 + 1@1 files => 1506648 bytes
+2022/12/15-04:06:38.293 1610 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/15-04:06:38.294 1610 Delete type=2 #7
+2022/12/15-04:06:38.294 1610 Delete type=2 #9
+2022/12/15-04:11:23.489 1610 Compacting 1@1 + 1@2 files
+2022/12/15-04:11:23.522 1610 Generated table #11@1: 18100 keys, 1311205 bytes
+2022/12/15-04:11:23.522 1610 Compacted 1@1 + 1@2 files => 1311205 bytes
+2022/12/15-04:11:23.523 1610 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/15-04:11:23.524 1610 Delete type=2 #5
+2022/12/15-04:11:23.524 1610 Delete type=2 #10
