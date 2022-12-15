@@ -1,11 +1,10 @@
 import { Message } from "venom-bot";
 import { Commands } from ".";
-import { emojiReaction } from "../services/emojiReaction";
-import { ICommand } from "./ICommand";
+import { ICommand } from "../interfaces/ICommand";
 
 export const help: ICommand = {
   command: "!h",
-  pattern: /^!h$/,
+  pattern: new RegExp("^!h$"),
   description: "Exibe os comandos disponíveis.",
   exec: (client) => {
     client.onAnyMessage((message: Message) => {

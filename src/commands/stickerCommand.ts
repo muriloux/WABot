@@ -1,13 +1,13 @@
 import { Message, Whatsapp } from "venom-bot";
-import { ICommand } from "./ICommand";
-import { convertMP4toGIF } from "../services/convertMP4toGIF";
-import { emojiReaction } from "../services/emojiReaction";
+import { ICommand } from "../interfaces/ICommand";
+import { convertMP4toGIF } from "../helpers/convertMP4toGIF";
+import { emojiReaction } from "../helpers/emojiReaction";
 import fs from "fs";
 import mime from "mime-types";
 
 export const sticker: ICommand = {
   command: "!s",
-  pattern: /^!s$/,
+  pattern: new RegExp("^!s$"),
   description: "Se mandado como legenda de uma imagem ou gif, faz um sticker.",
   exec: (client: Whatsapp) => {
     client.onAnyMessage(async (message: Message) => {

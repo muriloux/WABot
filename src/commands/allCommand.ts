@@ -1,9 +1,9 @@
 import { Message } from "venom-bot";
-import { ICommand } from "./ICommand";
+import { ICommand } from "../interfaces/ICommand";
 
 export const all: ICommand = {
   command: "!all",
-  pattern: /^!all$/,
+  pattern: new RegExp("^!all$"),
   description: "(ADM) Marca todos do grupo.",
   exec: (client) => {
     client.onAnyMessage(async (message: Message) => {

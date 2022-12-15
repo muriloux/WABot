@@ -1,9 +1,9 @@
 import { Message } from "venom-bot";
-import { ICommand } from "./ICommand";
+import { ICommand } from "../interfaces/ICommand";
 
 export const dice: ICommand = {
   command: "!d",
-  pattern: /^!d$/,
+  pattern: new RegExp("^!d$"),
   description: "Rola um dado de 6 lados.",
   exec: (client) => {
     client.onAnyMessage((message: Message) => {

@@ -1,7 +1,7 @@
 // Supports ES6
 import { create, Whatsapp } from "venom-bot";
 import { Commands } from "./commands";
-import { logMessages } from "./services/logMessages";
+import { logMessages } from "./helpers/logMessages";
 import path from "path";
 import express from "express";
 import "dotenv";
